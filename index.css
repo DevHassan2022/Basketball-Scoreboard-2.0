@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'Basketball';
+    src: url(Basketball.otf)
+}
+
+.container {
+    font-family: 'Basketball';
+    justify-content: space-around;
+    height: 385px;
+    width: 575px;
+    background: #1B244A;
+    padding: 0px 83px;
+}
+
+.container,
+#Winner,
+#timer {
+    display: flex;
+}
+
+#Winner,
+#timer {
+    justify-content: center;
+    align-items: center;
+}
+
+#Winner,
+.score {
+    background: #080001;
+}
+
+#Winner {
+    color: #ffffff;
+    text-shadow: 0px 0px 10px whitesmoke;
+    width: 220px;
+    padding: 10px ;
+    margin: 21px auto 25px auto;
+    height: 97px;
+}
+
+
+.container,
+.score {
+    margin: 0 auto;
+}
+
+.home-guest-heading {
+    font-family: Verdana;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #EEEEEE;
+    margin: 68px auto 21px auto;
+}
+
+.score {
+    font-size: 90px;
+    line-height: 127px;
+    color: #F94F6D;
+    height: 120px;
+}
+
+.score,
+.btn {
+    width: 155px;
+}
+
+.score,
+#timer,
+.score-btn,
+#reset-btn,
+#Winner {
+    border-radius: 5px;
+}
+
+.score,
+.score-btn {
+    font-family: Cursed Timer ULiL;
+}
+
+.btn {
+    margin-top: 21px;
+}
+
+.score-btn{
+    height: 45px;
+    width: 45px;
+    border: 2px solid #9AABD8;
+    background: none;
+    font-size: 18px;
+    line-height: 28px;
+    color: #9AABD8;
+}
+
+#reset-and-timer {
+    margin-top: 105px;
+}
+
+#reset-btn {
+    width: 240px;
+    height: 50px;
+    border: none;
+    background: #064E3B;
+    display: block;
+    font-family: 'Basketball';
+    font-size: 27px;
+    text-shadow: 0px 0px 15px black
+}
+
+#reset-btn,
+#timer {
+    color: whitesmoke;
+}
+
+#timer {
+    background: #0C4A6E;
+    font-size: 18px;
+    height: 45px;
+    width: 240px;
+}
+
+:disabled {
+    background: black;
+    color: red;
+}
+
+
+.blink {
+        animation: blink-animation 1s steps(5, start) infinite;
+        -webkit-animation: blink-animation 1s steps(5, start) infinite;
+      }
+      @keyframes blink-animation {
+        to {
+          visibility: hidden;
+        }
+      }
+      @-webkit-keyframes blink-animation {
+        to {
+          visibility: hidden;
+        }
+      }
+

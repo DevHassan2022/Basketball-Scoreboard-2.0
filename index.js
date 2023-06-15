@@ -170,7 +170,7 @@ setTimeout(function(){
         
     winner.textContent = "🏆Home Won";
     winner.style.color = 'lime';
-    winner.style.background= 'url;(https://media.giphy.com/media/8AdhxLETq6WhyyyxBk/giphy-downsized-large.gif)';
+    winner.style.background= 'url(https://media.giphy.com/media/8AdhxLETq6WhyyyxBk/giphy-downsized-large.gif)';
     
     } else if(count2 > count) {
         

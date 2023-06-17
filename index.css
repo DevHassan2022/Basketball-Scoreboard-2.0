@@ -8,6 +8,11 @@ body {
     src: url(Basketball.otf)
 }
 
+@font-face {
+    font-family: 'Cursed Timer';
+    src: url(CursedTimerULiL.ttf);
+}
+
 .container {
     font-family: 'Basketball';
     justify-content: space-around;
@@ -80,7 +85,7 @@ body {
 
 .score,
 .score-btn {
-    font-family: Cursed Timer ULiL;
+    font-family: Cursed Timer;
 }
 
 .btn {
